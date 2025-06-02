@@ -1,7 +1,15 @@
 Package: importar_ventas_siat
-Name: "Importar Ventas SIAT Csv"
-Version: "1.0.0"
+Name: Importar Ventas SIAT Csv
+Version: 1.0.0
 Description: Extension para la subida en excel de ventas del SIAT
 Author: Bolivia Impuestos
 Type: extension
 FA_Requires: 2.4.0
+
+[menu]
+name = Importar Ventas SIAT
+module = 0
+position = right
+url = modules/importar_ventas_siat/pages/importar_ventas_siat.php
+permission = SA_OPEN
+type = MENU_TRANSACTION
