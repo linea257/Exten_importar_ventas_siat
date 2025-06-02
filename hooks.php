@@ -1,5 +1,7 @@
 <?php
-
+if (!defined('SS_IMPORTAR_VENTAS')) {
+    define('SS_IMPORTAR_VENTAS', 150 << 8); // 150 es un número único que no colisione con otros
+}
 class hooks_importar_ventas_siat extends hooks 
 {
     var $module_name = "importar_ventas_siat";
